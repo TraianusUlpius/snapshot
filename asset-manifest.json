@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/snapshot/static/css/main.9b556514.chunk.css",
+    "main.js": "/snapshot/static/js/main.c0709c45.chunk.js",
+    "main.js.map": "/snapshot/static/js/main.c0709c45.chunk.js.map",
+    "runtime-main.js": "/snapshot/static/js/runtime-main.5e74a6cc.js",
+    "runtime-main.js.map": "/snapshot/static/js/runtime-main.5e74a6cc.js.map",
+    "static/js/2.ce1f4c8d.chunk.js": "/snapshot/static/js/2.ce1f4c8d.chunk.js",
+    "static/js/2.ce1f4c8d.chunk.js.map": "/snapshot/static/js/2.ce1f4c8d.chunk.js.map",
+    "index.html": "/snapshot/index.html",
+    "precache-manifest.dbd123119251a37a490e3e7124017b27.js": "/snapshot/precache-manifest.dbd123119251a37a490e3e7124017b27.js",
+    "service-worker.js": "/snapshot/service-worker.js",
+    "static/css/main.9b556514.chunk.css.map": "/snapshot/static/css/main.9b556514.chunk.css.map",
+    "static/js/2.ce1f4c8d.chunk.js.LICENSE.txt": "/snapshot/static/js/2.ce1f4c8d.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.bb9e1d88.worker.js": "/snapshot/static/js/mapbox-gl-csp-worker.bb9e1d88.worker.js",
+    "static/js/mapbox-gl-csp-worker.bb9e1d88.worker.js.map": "/snapshot/static/js/mapbox-gl-csp-worker.bb9e1d88.worker.js.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e74a6cc.js",
+    "static/js/2.ce1f4c8d.chunk.js",
+    "static/css/main.9b556514.chunk.css",
+    "static/js/main.c0709c45.chunk.js"
+  ]
+}
