@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <QueryClientProvider client={queryClient}>
-        <BrowserRouter>
+        <BrowserRouter basename="/snapshot">
           <div className="container">
             <Route
               render={(props) => (
