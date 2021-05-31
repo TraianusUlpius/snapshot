@@ -2,9 +2,14 @@ import React, { useCallback, useState, Fragment } from "react";
 import DeckGL from "@deck.gl/react";
 import { IconLayer } from "@deck.gl/layers";
 import { FlyToInterpolator } from "@deck.gl/core";
+import mapboxgl from "mapbox-gl";
 import { StaticMap } from "react-map-gl";
 import MapItem from "./MapItem";
 import Gallery from "./Gallery";
+
+mapboxgl.workerClass =
+  // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
+  require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const Map = ({ images }) => {
   const [hoverInfo, setHoverInfo] = useState(null);
